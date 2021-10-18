@@ -104,7 +104,28 @@ input[type="button"]:hover {
     -khtml-opacity: 0.85; /* Old Safaris */
     opacity: 0.85; /* Standar browsers */
 }
-
+section a{
+    margin-left: 100px;
+}
+.btn {
+    padding: 0.5rem 2rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  .btn-outline {
+   
+    color: rgb(92, 91, 91);
+    border: 3px solid #ffffff;
+    border-color: rgb(92, 91, 91);
+  }
+  .btn-outline:hover {
+    border-color: #2a9fff;
+    color: #2a9fff;
+    box-shadow: 0px 1px 8px 0px rgba(245, 199, 0, 0.2);
+  }  
 #state {
     background: rgba(44,68,138,1);
     background: -moz-linear-gradient(top, rgba(44,68,138,1) 0%, rgba(24,45,99,1) 46%, rgba(15,36,89,1) 50%, rgba(11,22,66,1) 100%);
